@@ -1,0 +1,9 @@
+
+#STATS
+Land Stadistics:
+
+#STAT_VALUE
+{}% ({} cells)
+
+#LOADING
+Loading map... This might take some time.

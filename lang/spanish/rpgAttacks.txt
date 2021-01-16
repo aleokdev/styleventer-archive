@@ -1,0 +1,31 @@
+&GENERIC_MELEE
+¡{0} golpea con su {2} a {1}!
+¡{1} es golpeado fuertemente por {0} con su {2}!
+¡{0} ataca a {1} con su {2}!
+
+~PICKAXE
+
+~SHOVEL
+
+~LIGHT_AXE
+
+~HEAVY_AXE
+
+~LIGHT_SWORD
+
+~STICK
+
+~STONE
+
+~KNIFE
+
+~RIFLE
+
+~BOW
+
+~CROSSBOW
+
+~LOGIC
+¡{0} DESTROZA a {1} con su lógica infalible!
+¡{0} ROMPE las leyes de la física y estalla una arteria de {1}!
+¡{0} ABORTA a {1}!

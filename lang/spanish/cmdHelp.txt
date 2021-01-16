@@ -1,0 +1,7 @@
+
+#TITLE
+Comandos
+
+#PROTIP
+Puedes usar un comando haciendo 'comando <argumentos>
+Para mostrar más información sobre un comando, haz 'ayuda <comando>

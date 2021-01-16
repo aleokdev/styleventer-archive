@@ -1,0 +1,158 @@
+{
+  "basic":
+  [
+    "IGNORING MY {tags.relative} AT {tags.time}{tags.marks}",
+    "EVERY TIME I GET SHOT IN {tags.fps} MY {tags.relative} REMOVES ONE PIECE OF CLOTHING{tags.marks}",
+    "I DIE IN {tags.fps}",
+    "OMG!! -- NEW {tags.fps} MAP{tags.marks}",
+    "{tags.fps} IS ENDING...",
+
+    "MY {tags.relative} PUTS THEIR DICK IN THE NEW {tags.object}{tags.marks}",
+    "MY {tags.relative} PUTS THEIR {tags.object} IN THE NEW {tags.object}{tags.marks}",
+
+    "{tags.fps} IS SHIT... HERE'S WHY",
+    "{tags.fps} SUCKS... HERE'S WHY",
+    "THE NEW {tags.object} IS SHIT... HERE'S WHY",
+    "THE NEW {tags.object} SUCKS... HERE'S WHY",
+
+    "I HAVE SOMETHING TO TELL YOU...",
+    "I'M SORRY",
+    "I'M LEAVING...",
+    "FINALLY TELLING THE TRUTH....",
+    "A STALKER BROKE INTO MY MANSION",
+    "MY {tags.relative} KIDNAPPED MY {tags.relative}{tags.marks}",
+    "I GOT ARRESTED AT {tags.place}{tags.marks}",
+    "MY {tags.relative} GOT ARRESTED AT {tags.place}{tags.marks}",
+    "I CAN'T BELIEVE MY {tags.relative} DID THIS.....",
+
+    "TOP 10 {tags.company} PRODUCTS YOU DIDN'T KNOW ABOUT",
+    "TOP 10 PEOPLE IN THE WORLD",
+    "I DRINK MY OWN URINE",
+    "GIVING AWAY 8000 ROLEX WATCHES",
+    "IS THE {tags.object} BETTER THAN THE {tags.object}{tags.marks}",
+
+    "FUNNY {tags.relative} FAILS",
+    "FUNNY {tags.fps} FAILS",
+    "{tags.fps} VINE COMPILATION",
+
+    "1000000$ {tags.object} UNBOXING",
+
+    "100000000ºC KNIFE DESTROYS {tags.object}",
+    "HYDRAULIC PRESS CRUSHES {tags.object}",
+    "CRUSHING THE NEW {tags.object}",
+
+    "{tags.company} IS LYING TO US...",
+    "{tags.fps} IS LYING TO US...",
+
+    "DOING THE {tags.challenge} CHALLENGE IN 2019... STILL WORTH IT{tags.marks}",
+    "NEW {tags.challenge} CHALLENGE{tags.marks}",
+    "THE FLOOR IS LAVA IN {tags.place}",
+    
+    "{tags.challenge} 8D ASMR",
+    "{tags.object} 8D ASMR"
+  ],
+  "challenge":
+  [
+    "ICE BUCKET", "BOTTLE FLIP", "FLOOR IS LAVA", "ALUMINIUM BALL"
+  ],
+  "relative":
+  [
+    "MOM", "MUM", "GF", "GIRLFRIEND", "FRIEND", "SISTER", "SIS", "BRO", "WIFE"
+  ],
+  "marks":
+  [
+    "?!!??!?!!??!","??????","??? {tags.emojis}", " {tags.emojis}", "?"
+  ],
+  "emojis":
+  [
+    "\uD83D\uDE02 \uD83D\uDE02 \uD83D\uDE02", "\uD83D\uDE40", "\uD83D\uDE40 \uD83D\uDE40", "\uD83D\uDE2D", "\uD83D\uDE2D \uD83D\uDE2D \uD83D\uDE2D"
+  ],
+  "time":
+  [
+    "3:33 AM", "4:20 AM", "0:69 PM"
+  ],
+  "fps":
+  [
+    "FORTNITE", "COD", "BATTLEFIELD", "BRAWL STARS", "REAL LIFE", "MINECRAFT"
+  ],
+  "place":
+  [
+    "CHINA", "USA", "MY 100000$ MANSION", "THE {tags.company} HEADQUARTERS", "MY {tags.relative}'S MANSION"
+  ],
+  "object":
+  [
+    "IPHONE XXX", "IPHONE X", "IPHONE 1492",
+    "IPAD",
+    "NOKIA 3310",
+    "{tags.company} XTREME GAMING KEYBOARD",
+    "{tags.company} MOTOR", "{tags.company} FAN", "{tags.company} OVEN",
+    "{tags.company} IRON", "{tags.company} BACKPACK", "{tags.company} PC",
+    "{tags.company} LAPTOP", "{tags.company} NUCLEAR REACTOR", "{tags.company} BREAD",
+    "{tags.company} FIDGET SPINNER"
+  ],
+  "company":
+  [
+    "NVIDIA", "AMD", "MARLBORO", "APPLE", "MICROSOFT", "NOKIA", "YOUTUBE", "GOOGLE"
+  ],
+  "bait":
+  [
+    "-- WARNING: EMOTIONAL {tags.emojis}",
+    "-- WTF{tags.marks}",
+    "-- MUST SEE!!",
+    "-- MUST WATCH!!",
+    "-- OMG....",
+    "-- THIS IS SO SAD",
+    "- STORYTIME",
+    "-- MINDBLOWING",
+    "(100% IMPOSSIBLE)",
+    "(99.9% IMPOSSIBLE)",
+    "(LITERALLY CRYING RN)",
+    "(GONE WRONG)",
+    "(WORKING 2019)",
+    "(WORKING 2020)",
+    "(DOWNLOAD IN DESCRIPTION)",
+    "(GIVEAWAY IN DESCRIPTION)",
+    "(GIVING AWAY NEW {tags.object})",
+    "(HIDDEN CAMERA)",
+    "AND THIS HAPPENS..."
+  ],
+  "description":
+  [
+    "YOU WON'T BELIEVE WHAT HAPPENED...",
+    "OH MY GOD... I CAN'T BELIEVE THIS...",
+    "DON'T DO THIS AT {tags.time}...",
+
+    "V V V EXPAND THE DESCRIPTION V V V",
+    "↓ ↓ ↓ EXPAND THE DESCRIPTION ↓ ↓ ↓",
+    "↓ OPEN ME ↓",
+    "⇩⇩ OPEN THE DESCRIPTION ⇩⇩",
+
+    "CAN WE GET 1000000 LIKES{tags.marks}",
+    "CAN WE REACH 2 MILLION SUBSCRIBERS{tags.marks}",
+
+    "CHECK OUT MY PREVIOUS VIDEO: {tags.basic}",
+    "LAST VIDEO: {tags.basic}"
+  ],
+  "desc_link":
+  [
+    "CHECK OUT MY MERCH: http://bitly.com/98K8eH",
+    "BUY MY SICK SHIT: http://bitly.com/98K8eH",
+    "BUY MY SICK MERCH: http://bitly.com/98K8eH",
+    "I SELL STUFF! http://bitly.com/98K8eH",
+
+    "BUY ME A COFFEE: http://bitly.com/98K8eH",
+    "SUPPORT ME ON PATREON: http://bitly.com/98K8eH",
+    "SUPPORT THE CHANNEL: http://bitly.com/98K8eH",
+    "GIVE ME YOUR MONEY: http://bitly.com/98K8eH",
+    "DONATE TO ME VIA PAYPAL: http://bitly.com/98K8eH",
+    "GIVE ME MONEY OR I ROB YOU: http://bitly.com/98K8eH",
+    "{tags.object} GIVEAWAY: http://bitly.com/98K8eH",
+    "{tags.fps} FREE PRIVATE SERVERS: http://bitly.com/98K8eH",
+
+    "FOLLOW ME ON TWITCH: http://bitly.com/98K8eH",
+    "INSTAGRAM: http://bitly.com/98K8eH",
+    "TWITTER: http://bitly.com/98K8eH",
+
+    "USE CODE \"CLICKBAIT\" IN THE {tags.fps} SHOP FOR A 10% DISCOUNT!"
+  ]
+}

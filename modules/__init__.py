@@ -1,0 +1,1 @@
+__all__ = ["hangman", "juagnacion", "meme", "simpleExecuter", "modutil", "mem"]

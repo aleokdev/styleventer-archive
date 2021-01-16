@@ -1,0 +1,141 @@
+
+#USER_NOT_REGISTERED
+¡No estás registrado! Por favor, haz `'rpg` primero.
+
+#REACTION_TIMEOUT
+¡Has tardado demasiado tiempo en usar una reacción!
+
+#CONTINUE_ADVENTURE
+Te despiertas de una larga siesta y...
+
+#NEW_USER
+Bienvenido a Retramonger PG, {}! Si quieres saber más información sobre cómo jugar, haz 'ayuda rpg
+
+#TUTORIAL_BEING_DONE
+¡Estás haciendo el tutorial! Termínalo primero.
+
+#TUTORIAL_1
+Te despiertas después de un largo tiempo... ¿Dónde estás?
+
+Después de ver tus alrededores, parece que te encuentras en {}. ¿Cómo has llegado hasta aquí?
+
+#TUTORIAL_2
+Parece que no hay nada aquí, así que será mejor que consigas un arma y un sitio para establecerte rápido.
+
+#TUTORIAL_3
+*Para este juego, necesitas utilizar las reacciones dadas por el bot para interactuar. Dale al tick que aparece para continuar.*
+
+#ACTION_MENU_IN_BIOME
+Te encuentras en **{}**.{}
+
+#ACTION_MENU_IN_LOCATION
+Te encuentras dentro de **{}** de **{}**.{}
+
+#NORTH
+norte
+#SOUTH
+sur
+#EAST
+este
+#WEST
+oeste
+
+#ACT_MOVE
+Te mueves hacia el {} y...
+
+#ACT_ENTER_LOCATION
+Entras en {} y...
+
+#ACT_EXIT_LOCATION
+Sales de {} y...
+
+#ACT_GET_ITEM
+Cojes {} y...
+
+#LOCATION_HAS_CONNECTIONS_IN_BIOME
+Parece que puedes entrar.
+
+¬LOCATION_HAS_CONNECTIONS_IN_LOCATION
+Parece que se puede continuar explorando.
+Parece que continúa.
+No parece que se haya acabado aquí.
+
+¬LOCATION_HAS_NO_MORE_CONNECTIONS_IN_LOCATION
+Parece que ha acabado aquí.
+Parece que no continúa.
+No parece que se pueda seguir explorando.
+
+#INVENTORY
+Inventario de {}
+
+#EMPTY_INVENTORY
+¡Tu inventario está vacío!
+
+#SELECT_NEW_LANGUAGE
+Selecciona el nuevo lenguage que quieres usar haciendo 'rpg l <número>:
+
+#LANGUAGE_SET
+Lenguaje cambiado correctamente!
+
+#NEW_ADVENTURE
+Nueva aventura
+
+#ACTION_MENU_TITLE
+La aventura de {}
+
+¬LOCATION_IN_BIOME
+Parece que hay **{}** cerca.
+Ves **{}** cerca.
+Te encuentras **{}** al andar un poco por la zona.
+
+¬THING_IN_DIRECTION
+Al {}, parece haber **{}**.
+Se puede ver **{1}** al {0}.
+Observas **{1}** al {0}.
+Hay **{1}** al {0}.
+
+¬LOOT_IN_LOCATION
+Hay **{}** en el suelo.
+Crees que ves algo en el suelo, así que te acercas y observas que hay **{}**.
+Miras a tu alrededor y encuentras **{}** en el suelo.
+Después de caminar un rato, te encuentras **{}**.
+
+¬LOOT_SEARCHED
+Observas mejor lo encontrado, y ves que es **{}**. ¿Lo quieres meter en tu inventario?
+Cojes el objeto encontrado, y ves que es **{}**. ¿Lo quieres meter en tu inventario?
+
+#LOOT_SEARCHED_TITLE
+Observas lo que te has encontrado...
+
+#IF_WEAPON_HAS_NO_ATTRIBUTES
+normal y corriente
+
+#LOOT_PUT_IN_INVENTORY
+Metes {} en tu inventario.
+
+#LOOT_LEFT_IN_LOCATION
+Dejas {} donde lo has encontrado.
+
+¬LOOT_DOES_NOT_EXIST
+Intentas cojer el objeto, pero parece que alguien se ha anticipado a ti!
+Parece que alguien te lo ha quitado mientras intentabas cojerlo!
+
+¬SEEING_USER
+Te encuentras a {}, que te saluda cordialmente.
+Te encuentras a {}, que te saluda rápidamente.
+Ves a {} andando por estas tierras.
+Te encuentras a un aventurero con el nombre de {}, que te saluda rápidamente.
+Te encuentras a un aventurero con el nombre de {}, que te saluda cordialmente.
+Te encuentras a un aventurero haciéndose llamar {}, que te saluda rápidamente.
+Te encuentras a un aventurero haciéndose llamar {}, que te saluda cordialmente.
+Te encuentras a un valiente aventurero con el nombre de {}, que te saluda rápidamente.
+Te encuentras a un valiente aventurero con el nombre de {}, que te saluda cordialmente.
+Te encuentras a un valiente aventurero haciéndose llamar {}, que te saluda rápidamente.
+Te encuentras a un valiente aventurero haciéndose llamar {}, que te saluda cordialmente.
+
+¬NOTHING_IN_BIOME
+No parece que haya nada aquí.
+Desgraciadamente, no avistas nada de interés aquí.
+
+#MENU_FOOTER
+Para ver tu inventario, haz 'rpg inv.

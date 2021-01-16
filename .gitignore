@@ -1,0 +1,25 @@
+# Cache & temp data
+__pycache__/
+.idea/
+modules/__pycache__/
+modules/.idea/
+modules/.vs
+temp/
+maps/
+world/
+log.txt
+nohup.out
+assets/Python-3.6.3.tar.xz
+assets/log.txt
+
+
+# Contains sensitive data
+assets/hangmanWords.txt
+assets/juagnaciones.txt
+assets/messwith.json
+assets/simpleCommands.txt
+assets/bot/token
+assets/bot/tokend
+lang/spanish/randFun.txt
+memes/
+settings.json

@@ -1,0 +1,13 @@
+{
+  "situations": [
+    {
+      "people_involved": 1,
+      "text": "helro",
+      "tags": [],
+      "causes": [],
+      "result": {
+        "dead": []
+      }
+    }
+  ]
+}

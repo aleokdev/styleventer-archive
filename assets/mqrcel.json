@@ -1,0 +1,59 @@
+{
+  "basic": [
+    "Is it possible to use in {tags.lang} {a[tags.product]}",
+    "Do universities support {tags.lang}?",
+    "What should I learn first? {tags.lang} or {tags.lang}?",
+    "What lenguage should I use to make {a[tags.product]}?",
+    "Why should I{tags.not} learn {tags.lang}?",
+    "What is better for{tags.not} getting a job? {tags.lang} or {tags.lang}?",
+    "How do I make {a[tags.product]}?",
+    "Why are there more {tags.lang} jobs in {tags.place}?",
+    "Which programming language does {tags.product} support?",
+    "Can {a[tags.component]} deteriorate?",
+    "Which {tags.product}s are good for {tags.os}?",
+    "Which is better? {tags.any} or {tags.any}?",
+    "Does {tags.place} use {tags.any}?",
+    "Is {tags.any} better in {tags.place}?"
+  ],
+  "lang": [
+    "C++",
+    "C",
+    "C#",
+    "Java",
+    "Assembly",
+    "Brainfuck",
+    "Lua"
+  ],
+  "os": [
+    "Linux/Ubuntu",
+    "Linux",
+    "Linux/Arch",
+    "Windows",
+    "DOS"
+  ],
+  "product": [
+    "game engine",
+    "language interpreter",
+    "interpreter",
+    "ECS",
+    "garbage collector"
+  ],
+  "component": [
+    "CPU",
+    "GPU"
+  ],
+  "any": [
+    "{tags.lang}",
+    "{tags.os}",
+    "a[{tags.product}]",
+    "a[{tags.component}]"
+  ],
+  "place": [
+    "the USA",
+    "Poland",
+    "Europe",
+    "Asia",
+    "China"
+  ],
+  "not": ["", " not "]
+}

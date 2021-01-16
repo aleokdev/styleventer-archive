@@ -1,0 +1,563 @@
+**PICKAXE
+* Pico
+*gM
+*tMELEE
+*a9
+*l60
+*dDouble
+*-->UNREAL
+*-->SIZE
+*-->CONDITION
+*rMINE:30
+**SHOVEL
+* Pala
+*gF
+*tMELEE
+*a8
+*l50
+*dDouble
+*-->SIZE
+*-->CONDITION
+*rMINE:35
+**LIGHT_AXE
+* Hacha ligera
+*gF
+*tMELEE
+*a11
+*l70
+*dSingle
+*-->UNREAL
+*-->SIZE
+*-->CONDITION
+*rDUNGEON:20
+**HEAVY_AXE
+* Hacha pesada
+*gF
+*tMELEE
+*a15
+*l45
+*dDouble
+*-->UNREAL
+*-->SIZE
+*-->CONDITION
+*rDUNGEON:10
+**LIGHT_SWORD
+* Espada ligera
+*gF
+*tMELEE
+*a10
+*l75
+*dSingle
+*-->UNREAL
+*-->SIZE
+*-->CONDITION
+*rDUNGEON:15
+**STICK
+* Palo
+*gM
+*tMELEE
+*a1
+*l95
+*dSingle
+*-->SIZE
+*-->CONDITION
+*rNATURE:50
+**STONE
+* Piedra
+*gF
+*tMELEE
+*a2
+*l95
+*dSingle
+*-->SIZE
+*-->CONDITION
+*rNATURE:40
+**KNIFE
+* Navaja
+*gF
+*tMELEE
+*a6
+*l80
+*dSingle
+*-->UNREAL
+*-->SIZE
+*-->CONDITION
+*rDUNGEON:25
+**RIFLE
+* Rifle
+*gM
+*tRANGED
+*a40
+*l20
+*dDouble
+*-->UNREAL
+*-->SIZE
+*-->CONDITION
+*rDUNGEON:5
+**BOW
+* Arco
+*gM
+*tRANGED
+*a10
+*l75
+*dDouble
+*-->UNREAL
+*-->SIZE
+*-->CONDITION
+*rDUNGEON:15
+**CROSSBOW
+* Ballesta
+*gF
+*tRANGED
+*a15
+*l80
+*dDouble
+*-->UNREAL
+*-->SIZE
+*-->CONDITION
+*rDUNGEON:7
+**LOGIC
+* Lógica
+*gF
+*tSPECIAL
+*a60
+*l50
+*dDouble
+*-->NONE
+^ desafilado
+^fdesafilada
+^tMELEE
+^cNORMAL
+^a-0.1
+^g0
+^p400
+^ de buena calidad
+^fde buena calidad
+^tMELEE
+^cCONDITION
+^a0.2
+^g0.1
+^p400
+^ afilado
+^fafilada
+^tMELEE
+^cNORMAL
+^a0.2
+^g0
+^p400
+^ pequeño
+^fpequeña
+^tMELEE
+^cSIZE
+^a-0.1
+^g0.15
+^p300
+^ grande
+^fgrande
+^tMELEE
+^cSIZE
+^a0.2
+^g-0.1
+^p300
+^ roto
+^frota
+^tMELEE
+^cCONDITION
+^a-0.5
+^g-0.1
+^p100
+^ enorme
+^fenorme
+^tMELEE
+^cSIZE
+^a0.4
+^g-0.2
+^p100
+^ diminuto
+^fdiminuta
+^tMELEE
+^cSIZE
+^a-0.3
+^g0.3
+^p100
+^ destrozado
+^fdestrozada
+^tMELEE
+^cCONDITION
+^a-0.9
+^g-0.2
+^p100
+^ sangriento
+^fsangrienta
+^tMELEE
+^cUNREAL
+^a0.25
+^g0
+^p75
+^ de juguete
+^fde juguete
+^tMELEE
+^cNORMAL
+^a-0.9
+^g0.4
+^p50
+^ ígneo
+^fígnea
+^tMELEE
+^cUNREAL
+^a0.1
+^g0
+^p10
+^ irreal
+^firreal
+^tMELEE
+^cUNREAL
+^a0.5
+^g0.1
+^p5
+^ legendario
+^flegendaria
+^tMELEE
+^cUNREAL
+^a1
+^g0.15
+^p1
+&&PLAINS
+& Explanada
+&gF
+&e🏞
+&->FOREST:10
+&->DESERT:10
+&->MOUNTAIN:10
+&pCANCELONLYTHIS
+&&FOREST
+& Bosque
+&gM
+&e🌲
+&->PLAINS:30
+&->MOUNTAIN:10
+&o>LAKE
+&&MOUNTAIN
+& Montaña
+&gF
+&e🏔
+&->FOREST:40
+&->PLAINS:10
+&o>CAVE
+&o>VILLAGE
+&o>RIVER
+&&DESERT
+& Desierto
+&gM
+&e🏜
+&->PLAINS:30
+&o>OASIS
+&o>TEMPLE_ENTRANCE
+&o>TRADER
+&&SHREK_SPAWN
+& Pantano
+&gM
+&e🎑
+&pUNIQUE
+&&OCEAN
+& Océano
+&gM
+&e🌊
+&->BEACH:3
+&pPRIORITIZED
+&pEDGY
+&&BEACH
+& Playa
+&gF
+&e🏖
+&->PLAINS:30
+&pONLYTHIS
+$$LAKE
+$ Lago
+$gM
+$$VILLAGE
+$ Aldea
+$gF
+$$OASIS
+$ Oasis
+$gM
+$$TEMPLE_ENTRANCE
+$ Templo
+$gM
+$->TEMPLE_ROOM
+$$TEMPLE_ROOM
+$ Habitáculo del templo
+$gM
+$->TEMPLE_ROOM
+$->TEMPLE_TREASURE_ROOM
+$lNOBIOME
+$lDUNGEON
+$$TEMPLE_TREASURE_ROOM
+$ Tesorería del templo
+$gF
+$lNOBIOME
+$lDUNGEON
+$aMORELOOT
+$$SANS_SPAWN
+$ Zona de juzgado
+$gF
+$lNOLOOT
+$$CAVE
+$ Cueva
+$gF
+$->CAVE
+$->MINE
+$lNOBIOME
+$lMINE
+$aLESSLOOT
+$$MINE
+$ Mina
+$gF
+$->CAVE
+$->MINE
+$lNOBIOME
+$lMINE
+$$TRADER
+$ Mercader
+$gM
+$lNOBIOME
+$$BENSHAPIRO_ENTRANCE
+$ Edificio peculiar
+$gM
+$->BENSHAPIRO_SPAWN
+$aUNIQUE
+$$BENSHAPIRO_SPAWN
+$ Centro de conferencias
+$gM
+$lNOLOOT
+$$HITLER_ENTRANCE
+$ Parking
+$gM
+$->HITLER_SPAWN
+$aUNIQUE
+$$HITLER_SPAWN
+$ Búnker de hitler
+$gF
+$lNOLOOT
+$$RIVER
+$ Río
+$gM
+$aGEN_RIVER
+!!STICK_INSECT
+! Insecto palo
+!gM
+!h1
+!m0.1
+!wSTICK
+!lPLAINS:1
+!lFOREST:1
+!x1
+!!RAT
+! Rata
+!gF
+!h20
+!m1
+!wCLAWS
+!aNODROP
+!aBADWEAPONS
+!lCAVE:5
+!lMINE:15
+!x20
+!!POTATO
+! Patata con patas
+!gF
+!h25
+!m1
+!lVILLAGE:1
+!x10
+!!SLIME
+! Slime
+!gM
+!h60
+!m1
+!lCAVE:20
+!lMINE:5
+!x50
+!!WOLF
+! Lobo
+!gM
+!h70
+!m1
+!wCLAWS
+!aNODROP
+!lFOREST:20
+!x60
+!!MAINCRA_SKELETON
+! Esqueleto del maincra
+!gM
+!h75
+!m1
+!wBOW
+!lPLAINS:5
+!lFOREST:3
+!lMINE:7
+!x65
+!!MAINCRA_MINER
+! Minero del maincra
+!gM
+!h80
+!m1
+!wPICKAXE|SHOVEL
+!lMINE:5
+!x70
+!!RAT_KID
+! Niño rata
+!gM
+!h100
+!m1
+!wPS4_CONTROLLER
+!lVILLAGE:8
+!x80
+!!HARPY
+! Arpía
+!gF
+!h100
+!m1
+!wCLAWS
+!lPLAINS:5
+!lMOUNTAIN:20
+!x85
+!!CANI
+! Cani
+!gM
+!h120
+!m1
+!wKNIFE
+!aBADWEAPONS
+!lVILLAGE:10
+!x100
+!!ORC
+! Orco
+!gM
+!h150
+!m1
+!wLIGHT_AXE|HEAVY_AXE
+!lCAVE:20
+!lMINE:5
+!x120
+!!WEREWOLF
+! Hombre lobo
+!gM
+!h150
+!m1
+!wCLAWS
+!aNIGHTONLY
+!lFOREST:20
+!x110
+!!GIANT_SPIDER
+! Araña gigante
+!gF
+!h170
+!m1
+!wPOISONOUS_CLAWS
+!aNODROP
+!lPLAINS:10
+!lFOREST:10
+!lCAVE:15
+!lMINE:30
+!x120
+!!CYCLOPS
+! Cíclope
+!gM
+!h200
+!m1
+!wSPIKED_BAT
+!lPLAINS:5
+!lTEMPLE_ROOM:15
+!x150
+!!MINOTAUR
+! Minotauro
+!gM
+!h300
+!m1
+!wSPIKED_BAT|LIGHT_AXE|HEAVY_AXE|LIGHT_AXE;LIGHT_AXE
+!lPLAINS:5
+!lTEMPLE_ROOM:20
+!x250
+!!GRIFFIN
+! Grifo
+!gM
+!h450
+!m1
+!lPLAINS:5
+!lMOUNTAIN:10
+!lTEMPLE_ROOM:20
+!x350
+!!CENTAUR
+! Centauro
+!gM
+!h500
+!m1
+!wLIGHT_SWORD|LIGHT_SWORD;LIGHT_SWORD|HEAVY_SWORD
+!lDESERT:10
+!lTEMPLE_ROOM:10
+!x400
+!!GIANT
+! Gigante
+!gM
+!h590
+!m1
+!wFISTS
+!aGOODWEAPONS
+!lCAVE:5
+!lTEMPLE_ROOM:5
+!x440
+!!DRAGON
+! Dragón
+!gM
+!h600
+!m1
+!wCLAWS
+!aNODROP
+!aGOODWEAPONS
+!lCAVE:5
+!lTEMPLE_ROOM:5
+!x470
+!!SHREK
+! Shrek
+!g-
+!h1500
+!m1
+!wHEAVY_AXE
+!aLEGENDARY
+!aPERFECTWEAPONS
+!aALWAYSDROP
+!lSHREK_SPAWN:100
+!x2000
+!sSHREK_YELL
+!!BEN_SHAPIRO
+! Ben Shapiro
+!g-
+!h3000
+!m1
+!wLOGIC
+!aLEGENDARY
+!aALWAYSDROP
+!lBENSHAPIRO_SPAWN:100
+!x4000
+!!SANS
+! Sans
+!g-
+!h5000
+!m1
+!wGASTER_BLASTER
+!aLEGENDARY
+!aALWAYSDROP
+!lSANS_SPAWN:100
+!x7000
+!!HITLER
+! Hitler
+!g-
+!h15000
+!m1
+!wGAS
+!aLEGENDARY
+!lHITLER_SPAWN:100
+!x25000
+
+eof

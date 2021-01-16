@@ -1,0 +1,60 @@
+PICKAXE:Pico,m
+SHOVEL:Pala,f
+LIGHT_AXE:Hacha ligera,f
+HEAVY_AXE:Hacha pesada,f
+LIGHT_SWORD:Espada ligera,f
+STICK:Palo,m
+STONE:Piedra,f
+KNIFE:Navaja,f
+RIFLE:Rifle,m
+BOW:Arco,m
+CROSSBOW:Ballesta,f
+LOGIC:Lógica,f
+
+PLAINS:Explanada,f
+FOREST:Bosque,m
+MOUNTAIN:Montaña,f
+DESERT:Desierto,m
+SHREK_SPAWN:Pantano,m
+OCEAN:Océano,m
+BEACH:Playa,f
+
+LAKE:Lago,m
+VILLAGE:Aldea,f
+OASIS:Oasis,m
+TEMPLE_ENTRANCE:Templo,m
+TEMPLE_ROOM:Habitáculo del templo,m
+TEMPLE_TREASURE_ROOM:Tesorería del templo,f
+SANS_SPAWN:Zona de juzgado,f
+CAVE:Cueva,f
+MINE:Mina,f
+TRADER:Mercader,m
+BENSHAPIRO_ENTRANCE:Edificio peculiar,m
+BENSHAPIRO_SPAWN:Centro de conferencias,m
+HITLER_ENTRANCE:Parking,m
+HITLER_SPAWN:Búnker de hitler,f
+RIVER:Río,m
+
+STICK_INSECT:Insecto palo,m
+RAT:Rata,f
+POTATO:Patata con patas,f
+SLIME:Slime,m
+WOLF:Lobo,m
+MAINCRA_SKELETON:Esqueleto del maincra,m
+MAINCRA_MINER:Minero del maincra,m
+RAT_KID:Niño rata,m
+HARPY:Arpía,f
+CANI:Cani,m
+ORC:Orco,m
+WEREWOLF:Hombre lobo,m
+GIANT_SPIDER:Araña gigante,f
+CYCLOPS:Cíclope,m
+MINOTAUR:Minotauro,m
+GRIFFIN:Grifo,m
+CENTAUR:Centauro,m
+GIANT:Gigante,m
+DRAGON:Dragón,m
+SHREK:Shrek,-
+BEN_SHAPIRO:Ben Shapiro,-
+SANS:Sans,-
+HITLER:Hitler,-

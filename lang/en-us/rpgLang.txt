@@ -1,0 +1,82 @@
+﻿
+#NEW_USER
+Welcome to Retramonger PG, {}! If you want more info about how to play, use the command 'help rpg.
+
+#TUTORIAL_BEING_DONE
+You're doing the tutorial! Finish it before doing anything else.
+
+#TUTORIAL_1
+You wake up after a long time... Where are you?
+
+After taking a look at your surroundings, it seems you're in {}. How did you get here?
+
+#TUTORIAL_2
+It looks like there's nothing here, so the best thing to do is to find a weapon and a place to call home quickly.
+
+#TUTORIAL_3
+*To play this game, you have to use the reactions given by the bot to interact. Click the tick below to continue.*
+
+#ACTION_MENU
+You're in **{}**.{}
+
+⬆ {}
+⬇ {}
+➡ {}
+⬅ {}
+
+#NORTH
+north
+#SOUTH
+south
+#EAST
+east
+#WEST
+west
+
+¬LOCATION_IN_BIOME
+It looks like there's **{}** nearby.
+You see **{}** nearby.
+You find **{}** after walking around the place.
+
+¬THING_IN_DIRECTION
+To the {}, there seems to be **{}**.
+You can see **{1}** to the {0}.
+You see **{1}** to the {0}.
+There's **{1}** to the {0}.
+You can see **{1}** to your {0}.
+You see **{1}** to your {0}.
+There's **{1}** to your {0}.
+
+¬SEEING_USER
+You encounter {}, who cordially greets you.
+You encounter {}, who quickly greets you.
+You see {} walking through these lands.
+You encounter an adventurer named {}, who quickly greets you.
+You encounter an adventurer named {}, who cordially greets you.
+You encounter an adventurer called {}, who quickly greets you.
+You encounter an adventurer called {}, who cordially greets you.
+
+¬NOTHING_IN_BIOME
+It doesn't look like there's anything here.
+Unfortunately, you don't find anything of interest here.
+
+#MENU_FOOTER
+To check your inventory, type `'rpg inv`.
+
+#SELECT_NEW_LANGUAGE
+Choose the new language you want to use with `'rpg l <number>`:
+
+#LANGUAGE_SET
+Language changed correctly!
+
+¬LOOT_IN_LOCATION
+There's **{}** on the ground.
+You catch a glimpse of something on the ground, so you get closer and find **{}**.
+You look at your surroundings and find **{}** on the ground.
+After walking for a while, you find **{}**.
+
+#NEW_ADVENTURE
+New adventure
+
+#ACTION_MENU_TITLE
+{}'s adventure

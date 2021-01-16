@@ -1,0 +1,10 @@
+vowels = ["a", "e", "i", "o", "u"]
+
+def plural(value):
+	return "some " + value
+		
+def pair(value):
+	return "a pair of " + value
+		
+def singular(value):
+	return "an " if value[0].lower() in vowels else "a " + value

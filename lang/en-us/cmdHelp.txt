@@ -1,0 +1,36 @@
+﻿
+#TITLE
+Commands
+
+#CMD_TITLE
+{} command
+
+#SYNTAX
+Syntax
+
+#DESCRIPTION
+Description
+
+#NO_DESCRIPTION
+Sorry, but there is no available description for this specific command.
+
+#NO_HELP
+Sorry, but there is no available help for this command.
+
+#ERROR
+There was an error!
+
+#CMD_NOTFOUND
+The command specified doesn't exist. Check for typos. Remember, commands are case-sensitive!
+
+#PROTIP
+You can use a command using 'command <parameters...> or get the description and usage of one by using 'help <command>
+
+#NORMALCMDS
+Standard commands
+
+#ADMINCMDS
+Admin commands
+
+#EXTENDEDCMDS
+Extended commands

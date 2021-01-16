@@ -1,0 +1,258 @@
+{
+ "situations":
+ [
+   {
+     "people_involved": 1,
+     "text": "{people[0]} falls off a cliff and instantly dies.",
+     "tags": ["attention", "basic"],
+     "result":
+     {
+       "dead": [0]
+     }
+   },
+
+   {
+     "people_involved": 1,
+     "text": "{people[0]} shoots themself on the foot and dies due to blood loss.",
+     "tags": ["attention", "basic"],
+     "requires": {"weapon": {"type": "ranged"}},
+     "result":
+     {
+       "dead": [0]
+     }
+   },
+
+   {
+     "people_involved": 1,
+     "text": "{people[0]} forgets to breathe and dies.",
+     "tags": ["attention"],
+     "result":
+     {
+       "dead": [0]
+     }
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[0]} kills {people[1]} with their {people[0].weapon['name']} for the horrible pun they've told.",
+     "tags": ["joke"],
+     "requires": {"weapon": {}},
+     "result":
+     {
+       "dead": [1]
+     }
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[0]} {attacks} {people[1]} with their {people[0].weapon['name']}! {people[1]} doesn't have time to react and dies.",
+     "tags": ["basic"],
+     "requires": {"weapon": {}},
+     "result":
+     {
+       "dead": [1]
+     }
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[0]} {attacks} {people[1]} with their {people[0].weapon['name']}! {people[1]} skillfully dodges the attack!",
+     "tags": ["basic"],
+     "requires": {"weapon": {}}
+   },
+
+   {
+     "people_involved": 1,
+     "text": "{people[0]} finds something on the ground!",
+     "tags": ["basic"],
+
+     "result":
+     {
+       "get": ["weapon"]
+     }
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[0]} tells a joke to {people[1]}. This distracts them and...",
+     "tags": ["basic"],
+     "causes": ["attention", "joke"]
+   },
+
+   {
+     "people_involved": 1,
+     "text": "{people[0]} has a heart attack from too much laughing and instantly dies.",
+     "tags": ["joke"],
+
+     "result":
+     {
+       "dead": [0]
+     }
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[0]} talks happily with {people[1]}.",
+     "tags": ["basic"]
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[0]} shows a meme to {people[1]}.",
+     "tags": ["basic"]
+   },
+
+   {
+     "people_involved": 1,
+     "text": "{people[0]} looks into the void. The void looks nice.",
+     "tags": ["basic"]
+   },
+
+   {
+     "people_involved": 1,
+     "text": "{people[0]} scratches their butt.",
+     "tags": ["basic"]
+   },
+
+   {
+     "people_involved": 1,
+     "text": "{people[0]} camps inside a bush.",
+     "tags": ["basic"],
+     "causes": ["bush"]
+   },
+
+   {
+     "people_involved": 1,
+     "text": "While trying to stay hidden, {people[0]} steps on a rusted nail and dies.",
+     "tags": ["bush"],
+     "result":
+     {
+         "dead": [0]
+     }
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[1]} finds out {people[0]}'s place of hiding and kills them.",
+     "tags": ["bush"],
+     "result":
+     {
+         "dead": [0]
+     }
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[0]} {attacks} {people[1]} from the bush with their {people[0].weapon['name']}, killing them.",
+     "tags": ["bush"],
+	   "requires": {"weapon": {}},
+     "result":
+     {
+         "dead": [1]
+     }
+   },
+
+   {
+     "people_involved": 2,
+     "text": "{people[0]} throws a rock at {people[1]} from the bush, causing {people[1]} to die from a painful headache. Yikes.",
+     "tags": ["bush"],
+     "result":
+     {
+         "dead": [1]
+     }
+   },
+
+   {
+     "people_involved": 1,
+     "text": "{people[0]} does the default fortnite dance.",
+     "tags": ["basic"]
+   }
+ ],
+
+ "weapons":
+ [
+   {
+     "name": "bazooka",
+     "type": "ranged"
+   },
+
+   {
+     "name": "rock",
+     "type": "melee"
+   },
+
+   {
+     "name": "stick",
+     "type": "melee"
+   },
+
+   {
+     "name": "AK47",
+     "type": "ranged"
+   },
+
+   {
+     "name": "a million bucks",
+     "type": "melee",
+     "attack_text": "bribes",
+     "one_use": true
+   },
+
+   {
+     "name": "mace",
+     "type": "melee"
+   },
+
+   {
+     "name": "hammer",
+     "type": "melee"
+   },
+
+   {
+     "name": "opinion",
+     "type": "melee",
+     "attack_text": "offends"
+   },
+
+   {
+	   "name": "pan",
+     "type": "melee"
+   },
+
+   {
+	   "name": "SCAR",
+     "type": "ranged"
+   },
+
+   {
+     "name": "potato",
+     "type": "melee",
+     "attack_text": "potatizes"
+   },
+
+   {
+     "name": "potatogun",
+     "type": "ranged",
+     "attack_text": "shoots potatoes at"
+   },
+
+   {
+     "name": "a fucking atomic bomb",
+     "type": "melee",
+     "attack_text": "desintegrates",
+     "one_use": true
+   },
+
+   {
+     "name": "keyboard",
+     "type": "melee",
+     "attack_text": "keymashes towards"
+   },
+
+   {
+     "name": "the fucking master sword",
+     "type": "melee",
+     "attack_text": "obliterates"
+   }
+ ]
+}

@@ -1,0 +1,30 @@
+@DEFAULT
+$e ENEMY_APPEAR
+sr> {enemy} aparece de la nada!
+
+$e ENEMY_APPEAR
+sr> {enemy} se estampa contigo!
+
+$e ENEMY_DEATH
+sr> {enemy} dice sus últimas palabras y muere.
+
+$e ENEMY_DEATH
+sr> {enemy} muere.
+
+$e ENEMY_DEATH
+sr> {enemy} tose sangre y se desploma.
+
+$e ENEMY_HEALTH_AT_50%
+sr> {enemy} parece estar cansado...
+
+@SHREK
+$e ENEMY_APPEAR
+sr> Shrek grita: "WHAT ARE YOU DOING IN MY SWAMP?"
+
+$e ENEMY_HEALTH_AT_50%
+s> No podemos arreglar esto con una cervecita?
+
+$e ENEMY_DEATH
+sr> Shrek dice "Donkey..." y seguidamente muere.
+
+@SLIME

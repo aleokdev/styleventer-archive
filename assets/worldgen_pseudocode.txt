@@ -1,0 +1,18 @@
+b = getPrioritizedBiome()
+
+generateBaseWithBiome(b)
+
+foreach biome in world as b:
+	if b.type is null, continue
+
+	possibleTypes = BiomeType.all
+
+	foreach neighbour:
+		if neighbour is out of bounds, continue
+		if neighbour is null, continue
+
+		remove types in possibleTypes that aren't in neighbour.possibleNeighbours
+
+		map weights in possibleTypes to be the minimum between both biomes
+
+	stype = random.choices(possibleTypes.keys(), possibleTypes.values())

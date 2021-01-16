@@ -1,0 +1,85 @@
+# First, users are spawned in a random location. Locations can hold multiple people and items.
+# Users can first notice other users in the same location, the items on the ground, or if there are none of them,
+# users can decide to move to other places.
+
+# All users' turns should be syncronized.
+
+# If user notices another user: They can choose to:
+# Aim at him: Makes the next shot (<weapon shortrange accuracy> * (distance^-1) + <weapon longrange accuracy> * distance) probable of hitting.
+# Directly shoot at him: Makes the next shot distance% less probable to hit.
+# Throw the item at him: Depends on the weapon. The other user can pick the object thrown
+
+# If user notices a weapon or object: They can choose to:
+# Choose between any of the weapons on the ground to switch with their current equipped weapon
+# Ignore the object
+
+# When an user is hit, they can be hit in the:
+# Left shoulder - Managing weapons compromised, 6% probability to hit
+# Right shoulder - Managing weapons compromised, 6% probability to hit
+# Left arm - Managing weapons compromised, 7.5% probability to hit
+# Right arm - Managing weapons compromised, 7.5% probability to hit
+# Left leg - movement compromised, 12% probability to hit
+# Right leg - movement compromised, 12% probability to hit
+# Head - instakill, 9% probability to hit
+# Chest - No inmediate compromises, but instakill if part is destroyed, 40% probability to hit
+## RELATED TECHNICAL: static User.bodyParts, User.healthState
+
+# When users die, they leave all their items on the ground.
+
+# SPAWN EXAMPLE 1:
+You spawn inside a jungle.								# Start message
+
+There is a shotgun and a rock nearby. What do you do?	# User noticed weapons on location
+
+1: Grab the shotgun										# Choices depend on what the user noticed
+2: Grab the rock
+X: Don't grab anything
+
+# TECHNICAL:
+# Static for user class:
+# bodyParts: dict<string, float> -> Stores the body parts of a typical user and the probability to hit each one of them.
+# User class has:
+# - id -> The discord user's id
+# - weapon -> The main weapon of the user. Can only have one
+# - inventory -> Stores other useful objects (Healing items, grenades, throwing knives, etc)
+# - healthState: dict<string, int> -> Stores the state of each body part. String is bodypart name, int is the health of the part (0: destroyed, 100: healthy)
+# - isAlive() -> Returns if the user is alive or not depending on their healthState
+
+# For entering the game, players need to use the <'br join> command.
+# This will make them join a lobby with all the players involved.
+# When a specific number of players is reached (Or <'br start> is called by an admin) the game will start.
+# The bot will put all game updates in a specific channel, including updates of each round and stats of the entire game.
+
+# Users have 20 seconds to make each one of their decisions. If they don't, they will stand still and do nothing.
+# Users interact by reacting to the message the bot gives to them.
+# The bot messages by DMs.
+
+# SPAWN EXAMPLE 2 (continued):
+You equip the shotgun.				# Relating to last choice done				
+
+You look behind you, and notice that <user> is aiming at you with a SMG! What do you do? # Notices user which is aiming
+
+1: Fire with the shotgun	# Use your main weapon
+2: Try to escape			# Go to a random location nearby
+3: Try to melee attack them # Risky, but can end up getting the other user's weapon
+# If the user had any supplemental weapons such as grenades, he could use them.
+
+
+--------------------------
+
+You notice two fighters nearby: r8 and patata.
+
+They seem to be fighting.
+
+It doesn't seem like they have seen you.
+
+What will you do?
+
+Aim your shotgun at them
+Shoot without aiming
+Escape
+Throw something...
+Stand still
+
+--------------------------
+

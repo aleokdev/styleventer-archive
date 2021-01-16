@@ -1,0 +1,104 @@
+{
+	"guns":
+	[
+		{
+			"name":"LMG",
+			"accuracy":70.0,
+			"damage":70.0,
+			"attributes":["360-able"],
+			"percent_amount":20.0
+		},
+		{
+			"name":"Sniper",
+			"accuracy":99.0,
+			"damage":100.0,
+			"attributes":["360-able", "Noscope-able"],
+			"percent_amount":5.0
+		},
+		{
+			"name":"Pistol",
+			"accuracy":80.0,
+			"damage":40.0,
+			"attributes":["360-able"],
+			"percent_amount":30.0
+		},
+		{
+			"name":"RPG",
+			"accuracy":70.0,
+			"damage":70.0,
+			"area_damage":35.0,
+			"attributes":["360-able", "destroys_cover"],
+			"percent_amount":5.0
+		},
+		{
+			"name":"SCAR",
+			"accuracy":95.0,
+			"damage":75.0,
+			"attributes":["360-able"],
+			"percent_amount":10.0
+		},
+		{
+			"name":"Potato Gun",
+			"accuracy":70.0,
+			"damage":20.0,
+			"area_damage":5.0,
+			"attributes":["360-able"],
+			"percent_amount":15.0
+		}
+	],
+	
+	"throwables":
+	[
+		{
+			"name":"Grenade",
+			"destroys_cover":true,
+			"damage":80.0,
+			"area_damage":30.0,
+			"start_text":"The grenade explodes, ",
+			"percent_amount":10.0
+		},
+		{
+			"name":"Fragmentation Grenade",
+			"destroys_cover":true,
+			"damage":50.0,
+			"area_damage":50.0,
+			"start_text":"The grenade explodes, ",
+			"percent_amount":5.0
+		},
+		{
+			"name":"Holy Grenade",
+			"destroys_cover":true,
+			"damage":100.0,
+			"area_damage":70.0,
+			"start_text":"The grenade explodes, ",
+			"percent_amount":4.0
+		},
+		{
+			"name":"Stick",
+			"destroys_cover":false,
+			"damage":10.0,
+			"area_damage":0,
+			"thrown_text":"",
+			"start_text":"You throw the stick at {user}, ",
+			"hit_text":"hitting them on the {bodyparts}",
+			"percent_amount":20.0
+		}
+	],
+	
+	"covers":
+	[
+		"tree",
+		"fortnite bush",
+		"big rock",
+		"perfectly placed sandbag"
+	],
+	
+	"defaults":
+	{
+		"thrown_text":"You throw one {item} at {user}.",
+		"hit_text":"hitting {user}'s {bodyparts}",
+		"join_hit_cover_text":" and ",
+		"cover_destroy_text":"destroying {user}'s cover",
+		"miss_text":"However, you fail to throw it correctly!"
+	}
+}

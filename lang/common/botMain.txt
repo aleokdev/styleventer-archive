@@ -1,0 +1,2 @@
+#PRESENCE
+{prefix}{helpcmd}
