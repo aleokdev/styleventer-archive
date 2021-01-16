@@ -7,7 +7,7 @@ including but not limited to:
 - The original [Linecrypt](https://github.com/alexdevteam/lcc) interpreter
 - All the assets it used (With some exceptions, keep reading)
 
-The codebase's original structure has been kept intact, but some documents (cache and sensible data)
+The codebase's original structure has been kept intact, but some documents (cache and sensitive data)
 have been excluded from the repository. As such, in its current state, this project **will not run**,
 since data such as the bot token or certain hardcoded values have been removed.
 
